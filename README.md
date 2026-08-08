@@ -78,7 +78,7 @@ If it makes your games nicer, **drop a star** — it helps others find the proje
 
 <br><br>
 
-**[⬇️ Download the latest release](https://github.com/Veltrix-s/NocturneMenu/releases/latest)** &nbsp;·&nbsp; **[📜 View all versions](https://github.com/Veltrix-s/OnyxMenu/releases)**
+**[⬇️ Download the latest release](https://github.com/Veltrix-s/OnyxMenu/releases/latest)** &nbsp;·&nbsp; **[📜 View all versions](https://github.com/Veltrix-s/OnyxMenu/releases)**
 
 </div>
 
