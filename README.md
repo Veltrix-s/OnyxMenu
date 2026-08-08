@@ -4,7 +4,7 @@
 
 <br><br>
 
-# 🌙 Nocturne
+# 🌙 Nocturne(onyx)
 
 **A sleek, feature-packed mod menu for Among Us.**
 
@@ -19,9 +19,9 @@ Dark moonlit overlay · QoL & host tools · visuals & ESP · match review · a f
 
 <br>
 
-<img src="https://img.shields.io/github/v/release/Veltrix-s/NocturneMenu?style=for-the-badge&label=version&color=5B8DEF&logo=github&logoColor=white" alt="Version">
-<img src="https://img.shields.io/github/downloads/Veltrix-s/NocturneMenu/total?style=for-the-badge&label=downloads&color=2ea043&logo=github&logoColor=white" alt="Downloads">
-<img src="https://img.shields.io/github/stars/Veltrix-s/NocturneMenu?style=for-the-badge&color=gold&logo=github&logoColor=white" alt="Stars">
+<img src="https://img.shields.io/github/v/release/Veltrix-s/OnyxMenu?style=for-the-badge&label=version&color=5B8DEF&logo=github&logoColor=white" alt="Version">
+<img src="https://img.shields.io/github/downloads/Veltrix-s/OnyxMenu/total?style=for-the-badge&label=downloads&color=2ea043&logo=github&logoColor=white" alt="Downloads">
+<img src="https://img.shields.io/github/stars/Veltrix-s/OnyxMenu?style=for-the-badge&color=gold&logo=github&logoColor=white" alt="Stars">
 
 <br><br>
 
@@ -46,11 +46,11 @@ Dark moonlit overlay · QoL & host tools · visuals & ESP · match review · a f
 
 <div align="center">
 
-### ⭐ Enjoying Nocturne?
+### ⭐ Enjoying Nocturne(Onyx)?
 
 If it makes your games nicer, **drop a star** — it helps others find the project and keeps it going!
 
-[![Star on GitHub](https://img.shields.io/github/stars/Veltrix-s/NocturneMenu?style=social)](https://github.com/Kairox-s/NocturneMenu)
+[![Star on GitHub](https://img.shields.io/github/stars/Veltrix-s/OnyxMenu?style=social)](https://github.com/Veltrix-s/OnyxMenu)
 
 </div>
 
@@ -72,13 +72,13 @@ If it makes your games nicer, **drop a star** — it helps others find the proje
 
 <div align="center">
 
-<img src="https://img.shields.io/github/v/release/Veltrix-s/NocturneMenu?style=for-the-badge&label=latest&color=5B8DEF&logo=github&logoColor=white" alt="Latest release">
-<img src="https://img.shields.io/github/release-date/Veltrix-s/NocturneMenu?style=for-the-badge&label=released&color=2ea043" alt="Release date">
-<img src="https://img.shields.io/github/downloads/Veltrix-s/NocturneMenu/total?style=for-the-badge&label=downloads&color=success" alt="Downloads">
+<img src="https://img.shields.io/github/v/release/Veltrix-s/OnyxMenu?style=for-the-badge&label=latest&color=5B8DEF&logo=github&logoColor=white" alt="Latest release">
+<img src="https://img.shields.io/github/release-date/Veltrix-s/OnyxMenu?style=for-the-badge&label=released&color=2ea043" alt="Release date">
+<img src="https://img.shields.io/github/downloads/Veltrix-s/OnyxMenu/total?style=for-the-badge&label=downloads&color=success" alt="Downloads">
 
 <br><br>
 
-**[⬇️ Download the latest release](https://github.com/Veltrix-s/NocturneMenu/releases/latest)** &nbsp;·&nbsp; **[📜 View all versions](https://github.com/Kairox-s/NocturneMenu/releases)**
+**[⬇️ Download the latest release](https://github.com/Veltrix-s/NocturneMenu/releases/latest)** &nbsp;·&nbsp; **[📜 View all versions](https://github.com/Veltrix-s/OnyxMenu/releases)**
 
 </div>
 
