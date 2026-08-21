@@ -241,6 +241,23 @@ Released under the **[GNU GPL v3.0](LICENSE)**. You are free to use, study, shar
 
 ---
 
+## 🙏 Credits & Acknowledgements
+
+**Nocturne** is an independent, client-side mod menu written from scratch in C#.
+The Among Us modding community is a shared space, and the projects below were
+valuable references for feature ideas and concepts. Much respect to their authors. 🖤
+
+### Inspiration & References
+
+| Project | |
+| :-- | :-- |
+| **[MalumMenu](https://github.com/scp222thj/MalumMenu)** | Feature & concept inspiration |
+| **[SickoMenu](https://github.com/g0aty/SickoMenu)** | Feature & concept inspiration *(native C++ menu)* |
+| **[Hydra](https://github.com/MrDiamond64/Hydra)** | Feature & concept inspiration |
+| **[ElysiumModMenu](https://github.com/Wextikit/ElysiumModMenu)** | Feature & concept inspiration |
+
+---
+
 <div align="center">
 
 Made with 🌙 by **Kawasaki**
