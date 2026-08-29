@@ -170,38 +170,50 @@ If it makes your games nicer, **drop a star** — it helps others find the proje
 
 ---
 
-📦 Installation
-1. Install BepInEx (IL2CPP)
-Download BepInEx and use the IL2CPP build matching your game's architecture:
+## 📦 Installation
 
-Stable: https://github.com/BepInEx/BepInEx/releases
-Bleeding Edge: https://builds.bepinex.dev/projects/bepinex_be
-2. Set up BepInEx
-Extract it into your Among Us folder — the one containing Among Us.exe and GameAssembly.dll:
+> Nocturne runs on **BepInEx 6 (IL2CPP)**.
 
+### 1 · Install BepInEx
+Grab the **IL2CPP** build that matches your game's architecture:
 
+| Channel | Link |
+| --- | --- |
+| **Stable** | https://github.com/BepInEx/BepInEx/releases |
+| **Bleeding Edge** | https://builds.bepinex.dev/projects/bepinex_be |
+
+### 2 · Set up BepInEx
+Extract the archive into your **Among Us** folder — the one containing `Among Us.exe` and `GameAssembly.dll`:
+
+```text
 Among Us/
 ├─ Among Us.exe
 ├─ GameAssembly.dll
 ├─ winhttp.dll
 ├─ dotnet/
 └─ BepInEx/
-Launch the game once, wait for the main menu, then close it (this generates BepInEx/plugins).
+```
 
-3. Install Nocturne
-Download NocturneMenu.dll from the latest release, then place it here:
+Launch the game once, reach the main menu, then close it — this generates the **`BepInEx/plugins`** folder.
 
+### 3 · Install Nocturne
+Download **`NocturneMenu.dll`** from the [**latest release**](#) and drop it into:
 
+```text
 Among Us/BepInEx/plugins/NocturneMenu.dll
-Launch the game and press Insert to open the menu.
+```
 
-🐧 Linux / Steam Deck
-Install BepInEx and Nocturne normally, then add this to your Steam launch options:
+Launch the game and press **`Insert`** to open the menu.
 
+---
+
+### 🐧 Linux / Steam Deck
+Install BepInEx and Nocturne as above, then add this to your Steam **launch options**:
 
 ```bash
 WINEDLLOVERRIDES="winhttp.dll=n,b" %command%
 ```
+
 
 ---
 
