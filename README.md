@@ -170,41 +170,38 @@ If it makes your games nicer, **drop a star** — it helps others find the proje
 
 ---
 
-## 📦 Installation
+📦 Installation
+1. Install BepInEx (IL2CPP)
+Download BepInEx and use the IL2CPP build matching your game's architecture:
 
-> Nocturne runs on **BepInEx (IL2CPP, Windows x64)**. Install BepInEx once, then drop the DLL in.
+Stable: https://github.com/BepInEx/BepInEx/releases
+Bleeding Edge: https://builds.bepinex.dev/projects/bepinex_be
+2. Set up BepInEx
+Extract it into your Among Us folder — the one containing Among Us.exe and GameAssembly.dll:
 
-<details open>
-<summary><b>🟢 Steam / Itch.io</b></summary>
 
-1. Download the latest **BepInEx BleedingEdge — IL2CPP, `win-x64`**.
-2. Open the Among Us install folder:
-   - **Steam:** Library → right-click **Among Us** → **Manage → Browse local files**.
-   - **Itch.io:** itch app → **Among Us** → ⚙️ → **Manage → Show in Explorer**.
-3. Extract the **whole BepInEx zip** into that folder — next to `Among Us.exe`.
-4. Launch the game once, wait for the main menu, then close it (this creates `BepInEx/plugins`).
-5. Drop **`NocturneMenu.dll`** into `Among Us/BepInEx/plugins/`.
-6. Launch and press **Insert**.
+Among Us/
+├─ Among Us.exe
+├─ GameAssembly.dll
+├─ winhttp.dll
+├─ dotnet/
+└─ BepInEx/
+Launch the game once, wait for the main menu, then close it (this generates BepInEx/plugins).
 
-</details>
+3. Install Nocturne
+Download NocturneMenu.dll from the latest release, then place it here:
 
-<details>
-<summary><b>🔵 Epic Games / Microsoft Store</b></summary>
 
-**Epic Games**
-1. Epic Launcher → Library → **Among Us** → **⋯ → Manage** — usually:
-   `C:\Program Files\Epic Games\AmongUs`
-2. Then follow the **same steps 3–6** as Steam/Itch.
+Among Us/BepInEx/plugins/NocturneMenu.dll
+Launch the game and press Insert to open the menu.
 
-**Microsoft Store / Xbox / Game Pass**
-> ⚠️ The Store version installs into the protected `C:\Program Files\WindowsApps\` folder and runs as a **UWP** app, so standard BepInEx injection **does not work out of the box**.
->
-> **Recommended:** use the **Steam, Epic, or Itch.io** version.
+🐧 Linux / Steam Deck
+Install BepInEx and Nocturne normally, then add this to your Steam launch options:
 
-</details>
 
-> First launch generates `BepInEx/config/nocturne.mod.cfg`. Delete it to reset all settings.
-> Keep only **one** `Nocturne*.dll` in `plugins/` so it isn't loaded twice.
+```bash
+WINEDLLOVERRIDES="winhttp.dll=n,b" %command%
+```
 
 ---
 
