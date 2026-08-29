@@ -10,7 +10,7 @@
 
 Dark moonlit overlay · QoL & host tools · visuals & ESP · match review · a full built-in music player
 
-<div align="center">
+<br>
 
 <img src="https://img.shields.io/badge/Among%20Us-IL2CPP-000000?style=for-the-badge&logo=amongus&logoColor=white" alt="Among Us">
 <img src="https://img.shields.io/badge/BepInEx-6.x-5865F2?style=for-the-badge" alt="BepInEx">
@@ -28,7 +28,6 @@ Dark moonlit overlay · QoL & host tools · visuals & ESP · match review · a f
 <a href="https://discord.gg/cP4MrVUfM7"><img src="https://img.shields.io/badge/Discord-Join%20the%20server-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
 
 </div>
-
 
 ---
 
@@ -205,17 +204,12 @@ Among Us/BepInEx/plugins/NocturneMenu.dll
 
 Launch the game and press **`Insert`** to open the menu.
 
----
-
 ### 🐧 Linux / Steam Deck
 Install BepInEx and Nocturne as above, then add this to your Steam **launch options**:
 
 ```bash
 WINEDLLOVERRIDES="winhttp.dll=n,b" %command%
 ```
-
-
----
 
 ### 🎵 Adding music
 Drop `.mp3` / `.wav` / `.ogg` / `.flac` files into `Among Us/BepInEx/plugins/Nocturne/Music/`, then open the player with **`M`**.
