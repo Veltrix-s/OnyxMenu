@@ -1,0 +1,31 @@
+using HarmonyLib;
+
+namespace Nocturne.Patches;
+
+[HarmonyPatch(typeof(PlayerPhysics), nameof(PlayerPhysics.HandleAnimation))]
+internal static class NocturneNoAnimLocalPatch
+{
+    public static bool Prefix(PlayerPhysics __instance)
+    {
+        if (!NocturneConfig.WalkNoAnim.Value || __instance == null || !__instance.AmOwner)
+            return HarmonyControl.Continue;
+        __instance.ResetAnimState();
+        return HarmonyControl.SkipOriginal;
+    }
+}
+
+[HarmonyPatch(typeof(PlayerPhysics), nameof(PlayerPhysics.HandleAnimation))]
+internal static class NocturneAnimForcePatch
+{
+    public static void Postfix(PlayerPhysics __instance)
+    {
+        try
+        {
+            if (!NocturneAnimations.ClimbHeld) return;
+            if (__instance == null || __instance.myPlayer == null || __instance.myPlayer != PlayerControl.LocalPlayer)
+                return;
+            NocturneAnimations.ForceClimb(__instance.Animations);
+        }
+        catch { }
+    }
+}
