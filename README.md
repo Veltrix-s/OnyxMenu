@@ -267,7 +267,6 @@ The Among Us modding community is a shared space, and the projects below were va
 | [**Windows Runtime API**](https://learn.microsoft.com/en-us/uwp/api/windows.media.control) | Accessing and controlling media sessions from other applications |
 
 
-
 ---
 
 <div align="center">
