@@ -1,222 +1,194 @@
 <div align="center">
 
-<img src="docs/banner.png" alt="Nocturne — mod menu for Among Us" width="100%">
+<img src="docs/banner.png" alt="Nocturne" width="100%">
 
-<br><br>
+# NocturneMenu
 
-# 🌙 Nocturne(onyx)
+An open-source mod menu for Among Us, formerly known as OnyxMenu.
 
-**A sleek, feature-packed mod menu for Among Us.**
+Built with BepInEx 6 and .NET 6.
 
-Dark moonlit overlay · QoL & host tools · visuals & ESP · match review · a full built-in music player
+[**Download**](https://github.com/Veltrix-s/OnyxMenu/releases/latest) · [**Discord**](https://discord.gg/cP4MrVUfM7) · [**Source Code**](https://github.com/Veltrix-s/OnyxMenu)
 
-<br>
+[![Latest Release](https://img.shields.io/github/v/release/Veltrix-s/OnyxMenu?label=version)](https://github.com/Veltrix-s/OnyxMenu/releases/latest)
+[![Release Date](https://img.shields.io/github/release-date/Veltrix-s/OnyxMenu?label=released)](https://github.com/Veltrix-s/OnyxMenu/releases)
+[![Downloads](https://img.shields.io/github/downloads/Veltrix-s/OnyxMenu/total?label=downloads)](https://github.com/Veltrix-s/OnyxMenu/releases)
+[![Stars](https://img.shields.io/github/stars/Veltrix-s/OnyxMenu?label=stars)](https://github.com/Veltrix-s/OnyxMenu/stargazers)
 
-<img src="https://img.shields.io/badge/Among%20Us-IL2CPP-000000?style=for-the-badge&logo=amongus&logoColor=white" alt="Among Us">
-<img src="https://img.shields.io/badge/BepInEx-6.x-5865F2?style=for-the-badge" alt="BepInEx">
-<img src="https://img.shields.io/badge/.NET-6.0-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET">
-<img src="https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge&logo=gnu&logoColor=white" alt="License">
-
-<br>
-
-<img src="https://img.shields.io/github/v/release/Veltrix-s/OnyxMenu?style=for-the-badge&label=version&color=5B8DEF&logo=github&logoColor=white" alt="Version">
-<img src="https://img.shields.io/github/downloads/Veltrix-s/OnyxMenu/total?style=for-the-badge&label=downloads&color=2ea043&logo=github&logoColor=white" alt="Downloads">
-<img src="https://img.shields.io/github/stars/Veltrix-s/OnyxMenu?style=for-the-badge&color=gold&logo=github&logoColor=white" alt="Stars">
-
-<br><br>
-
-<a href="https://discord.gg/cP4MrVUfM7"><img src="https://img.shields.io/badge/Discord-Join%20the%20server-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+![Among Us](https://img.shields.io/badge/Among%20Us-IL2CPP-333333)
+![BepInEx](https://img.shields.io/badge/BepInEx-6.x-5865F2)
+![.NET](https://img.shields.io/badge/.NET-6.0-512BD4)
+[![License](https://img.shields.io/badge/license-GPL--3.0-blue)](LICENSE)
 
 </div>
 
 ---
 
-## ✨ Overview
+## About
 
-**Nocturne** is a client-side **mod menu** built from the ground up for Among Us. A clean, dark **moonlit** overlay brings everything together — quality-of-life tweaks, deep theming, cosmetics, chat & lobby tools, and a proper **built-in music player** — in one tidy window. Open it with **`Insert`**, toggle what you like, and your settings stick between sessions.
+Nocturne is a client-side mod menu for Among Us. It brings lobby and host tools, gameplay options, visuals, chat utilities, match replays, and a music player into one in-game interface.
 
-- 🌙 **Moonlit dark theme** — rounded panels, smooth animations, an icon sidebar
-- 🎨 **24 accent colors** — recolor the whole UI to taste
-- 🌍 **Bilingual** — Russian / English, switchable in-game
-- 🧩 **Modular** — every option is a toggle; enable only what you want
-- 🗂 **Organized** — 9 tabs, collapsible sections and a built-in search
+The menu uses a dark theme with 24 accent colors, supports English and Russian, and includes search, collapsible sections, and customizable hotkeys. Settings are saved between sessions.
 
----
+Press **`Insert`** to open or close the menu.
 
-<div align="center">
+## Features
 
-### ⭐ Enjoying Nocturne(Onyx)?
+### Lobby & Hosting
 
-If it makes your games nicer, **drop a star** — it helps others find the project and keeps it going!
+- Custom lobby bar with host information, game timer, FPS, and ping
+- Auto-host with player requirements, start delays, and auto-return options
+- Lobby browser with host, code, platform, and lobby age information
+- Start shortcuts and additional host settings
+- Game rule options, including win conditions, role limits, and Hide & Seek settings
+- Lobby clones with formations and movement options
+- Fake map and lobby object controls
+- Ban list, whitelist, player name history, level filters, and reserved colors
 
-[![Star on GitHub](https://img.shields.io/github/stars/Veltrix-s/OnyxMenu?style=social)](https://github.com/Veltrix-s/OnyxMenu)
+### Gameplay & Players
 
-</div>
+- Kill, vent, sabotage, and role-related options
+- Movement, reach, cooldown, and teleport options
+- Free camera, no-clip, and zoom
+- Player information, role visibility, and meeting vote display
+- Follow, morph, self-drag, and appearance options
+- Other options for private and modded lobbies
 
----
+### Visuals
 
-## 💬 Community
+- Player ESP with roles, boxes, and tracers
+- Radar for players, bodies, and vents
+- Task arrows and player information overlays
+- Full-bright and visibility settings
+- Options to skip intro, role reveal, and kill animations
+- Cosmetic preview and saved outfits
 
-<div align="center">
+### Chat
 
-**Join the Discord** — the best place for support, release updates and feedback.
+- Movable chat window with timestamps
+- Chat presets, symbol picker, and extended input
+- Chat commands and colored messages (`/c`, `/color`)
+- Chat appearance settings
 
-[![Join Discord](https://img.shields.io/badge/Discord-Join%20the%20server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/cP4MrVUfM7)
+### Match Replay
 
-</div>
+- Record player positions and important round events
+- Review kills, vents, sabotages, and meetings
+- Timeline playback, seeking, and player focus
+- Event filters for finding specific moments
 
----
+### Music Player
 
-## 📜 Releases
+- Play local music files directly from the menu
+- 10-band equalizer with 28 presets
+- Bass, stereo, crossfade, and other audio effects
+- Live FFT spectrum and disc visualizer
+- Playback controls and track navigation
+- Supported Windows media-session controls
 
-<div align="center">
+Put your music in `BepInEx/plugins/Nocturne/Music/` and press **`M`** to open the player.
 
-<img src="https://img.shields.io/github/v/release/Veltrix-s/OnyxMenu?style=for-the-badge&label=latest&color=5B8DEF&logo=github&logoColor=white" alt="Latest release">
-<img src="https://img.shields.io/github/release-date/Veltrix-s/OnyxMenu?style=for-the-badge&label=released&color=2ea043" alt="Release date">
-<img src="https://img.shields.io/github/downloads/Veltrix-s/OnyxMenu/total?style=for-the-badge&label=downloads&color=success" alt="Downloads">
+### Settings & Utilities
 
-<br><br>
+- FPS counter and configurable FPS cap
+- HUD scaling and in-game notifications
+- 24 accent colors, English/Russian language selection, and UI search
+- Customizable hotkeys and persistent settings
+- Live connection, ping, and lobby information
+- Platform, level, and other display/spoof options where supported
+- Options to block analytics and diagnostic reporting
 
-**[⬇️ Download the latest release](https://github.com/Veltrix-s/OnyxMenu/releases/latest)** &nbsp;·&nbsp; **[📜 View all versions](https://github.com/Veltrix-s/OnyxMenu/releases)**
+> Some features require you to be the host, depend on the current game version, or are intended only for private/modded lobbies.
 
-</div>
+## Hotkeys
 
----
-
-## 🧰 Features
-
-<table>
-<tr><td width="50%" valign="top">
-
-### ⚡ Quality of Life
-- FPS counter & lobby timer (in the ping tracker)
-- Pop-up notifications (toasts)
-- FPS lock / custom cap · HUD scale
-- One-key **lobby code copy** (`F6`)
-- 24 accent themes · collapsible sections + search
-
-### 🏠 Lobby & Host
-- Custom **lobby bar** (host avatar, START, FPS/ping/time chips)
-- Unlock Start · start / instant-start on `Enter`
-- **Auto-host** — min players, delays, force start, auto-return
-- Rich lobby browser (host / code / platform / age)
-- No win conditions · 4 impostors · custom seeker count in Hide & Seek
-- Host rules — vote-immune · no reports & meetings · unlock option limits
-- Fake map · destroy / rebuild the lobby object
-- **Lobby clones** — spawn, formations, text-art, shadow / guard / drift
-
-### ⚔️ Match Tools
-- Instant kill — all / crewmates / impostors · telekill
-- Auto-vent after kill · body to vent · vent network
-- Multi-sabotage · blind / full-bright · classic mode
-- Role buffs — no cooldowns, reach, walk in vents…
-
-### 🎵 Music Player
-- Opens with **`M`** — plays from `plugins/Nocturne/Music/`
-- Full DSP chain: 10-band EQ (28 presets), stereo widening, bass, loudness, de-esser, crossfade, crossfeed, saturation, limiter
-- Live FFT spectrum & disc visualizer
-
-</td><td width="50%" valign="top">
-
-### 👁 Visuals & ESP
-- Roles / ghosts / vents / boxes / tracers · full-bright · wallhack
-- Free camera · wheel zoom · no-clip
-- **Task arrows** · **radar minimap** (players / bodies / vents)
-- Skip Shhh / role reveal / kill animations
-- Unlock & preview cosmetics · favorite outfits
-
-### 🎬 Match Review
-- Record & replay the round — paths, kills, vents, sabotages, meetings
-- Smooth timeline scrubbing + playback, per-player focus, filters
-
-### 🧑 Players
-- Reveal roles · info above names (level / platform)
-- Show meeting votes · morph · follow / teleport
-- **Self-drag** — move yourself with LMB
-- Colored name · fun pranks (eggs, morph, rainbow…)
-
-### 💬 Chat
-- Draggable chat window · timestamps · dark theme · symbol picker
-- No length limit · quick chat presets
-- Chat commands · color commands `/c /color`
-
-### 🛡 Guard
-- Ban list / whitelist by FriendCode
-- Nick ban & name history · level guard
-- Reserve player colors (host)
-
-### 🌐 Spoof & Network
-- Live ping / FPS / lobby status
-- Spoof platform · displayed level · friend code · device ID
-
-### 🔐 Privacy
-- Block analytics, crash & performance reporting
-
-</td></tr>
-</table>
-
----
-
-## ⌨️ Hotkeys
-
-| Key | Action | | Key | Action |
-|:---:|:-------|---|:---:|:-------|
-| `Insert` | Open / close the menu | | `M` | Open the music player |
-| `F6` | Copy the lobby code | | `[` / `]` | Previous / next track |
-| `Esc` | Close the menu | | | |
-
-> All keys are rebindable in **Settings → Hotkeys**.
-
----
-
-## 📦 Installation
-
-> Nocturne runs on **BepInEx 6 (IL2CPP)**.
-
-### 1 · Install BepInEx
-Grab the **IL2CPP** build that matches your game's architecture:
-
-| Channel | Link |
+| Key | Action |
 | --- | --- |
-| **Stable** | https://github.com/BepInEx/BepInEx/releases |
-| **Bleeding Edge** | https://builds.bepinex.dev/projects/bepinex_be |
+| `Insert` | Open / close the menu |
+| `M` | Open the music player |
+| `F6` | Copy the lobby code |
+| `[` / `]` | Previous / next track |
+| `Esc` | Close the menu |
 
-### 2 · Set up BepInEx
-Extract the archive into your **Among Us** folder — the one containing `Among Us.exe` and `GameAssembly.dll`:
+You can change hotkeys in **Settings → Hotkeys**.
+
+## Installation
+
+Nocturne requires **BepInEx 6 for IL2CPP**. Make sure the BepInEx build matches your Among Us installation and its architecture.
+
+### 1. Install BepInEx
+
+Download the appropriate IL2CPP build:
+
+- [BepInEx releases](https://github.com/BepInEx/BepInEx/releases)
+- [BepInEx bleeding-edge builds](https://builds.bepinex.dev/projects/bepinex_be)
+
+Extract it into the folder containing `Among Us.exe` and `GameAssembly.dll`.
+
+Your game folder should look roughly like this:
 
 ```text
 Among Us/
-├─ Among Us.exe
-├─ GameAssembly.dll
-├─ winhttp.dll
-├─ dotnet/
-└─ BepInEx/
+├── Among Us.exe
+├── GameAssembly.dll
+├── winhttp.dll
+├── dotnet/
+└── BepInEx/
 ```
 
-Launch the game once, reach the main menu, then close it — this generates the **`BepInEx/plugins`** folder.
+Run Among Us once, wait until the main menu appears, and close it. This lets BepInEx generate its folders and configuration files.
 
-### 3 · Install Nocturne
-Download **`NocturneMenu.dll`** from the [**latest release**](#) and drop it into:
+### 2. Install Nocturne
+
+Get the current build from the [Releases page](https://github.com/Veltrix-s/OnyxMenu/releases/latest).
+
+Place `NocturneMenu.dll` in:
 
 ```text
 Among Us/BepInEx/plugins/NocturneMenu.dll
 ```
 
-Launch the game and press **`Insert`** to open the menu.
+Start the game and press **`Insert`**.
 
-### 🐧 Linux / Steam Deck
-Install BepInEx and Nocturne as above, then add this to your Steam **launch options**:
+If the release includes a preconfigured package, follow the instructions included with that package instead. Builds for different game distributions may not be interchangeable.
+
+### Linux / Steam Deck
+
+Install the Windows IL2CPP build of BepInEx and Nocturne in the game's installation folder as described above. Then add this to the game's Steam launch options:
 
 ```bash
 WINEDLLOVERRIDES="winhttp.dll=n,b" %command%
 ```
 
-### 🎵 Adding music
-Drop `.mp3` / `.wav` / `.ogg` / `.flac` files into `Among Us/BepInEx/plugins/Nocturne/Music/`, then open the player with **`M`**.
+Linux support runs through Proton and can vary by game version and distribution. Some Windows-specific features, including media-session integration, may not be available.
 
----
+### Adding Music
 
-## ⚠️ Disclaimer
+Create the music folder if it does not exist:
+
+```text
+Among Us/BepInEx/plugins/Nocturne/Music/
+```
+
+Add supported local audio files such as `.mp3`, `.wav`, `.ogg`, or `.flac`, then open the player with **`M`**.
+
+### Having Problems?
+
+- Check that your Among Us and BepInEx builds match the version supported by the release.
+- Make sure you installed the **IL2CPP** build of BepInEx, not the Mono build.
+- Temporarily remove other mods to rule out conflicts.
+- Check the BepInEx log for errors.
+- Report reproducible issues on [Discord](https://discord.gg/cP4MrVUfM7), including the game version and relevant log output.
+
+## Releases & Community
+
+Download builds and read changelogs on the [Releases page](https://github.com/Veltrix-s/OnyxMenu/releases).
+
+For bug reports, suggestions, and support, join the [Discord server](https://discord.gg/cP4MrVUfM7).
+
+If you use Nocturne and want to support its development, a [GitHub star](https://github.com/Veltrix-s/OnyxMenu) helps other people find the project.
+
+## Disclaimer
 
 Nocturne is an unofficial third-party modification for Among Us.
 
@@ -238,41 +210,31 @@ For the best experience, disable or remove other mods before launching to avoid 
 
 ---
 
-## 📄 License
 
-Released under the **[GNU GPL v3.0](LICENSE)**. You are free to use, study, share and modify Nocturne, provided derivative works remain under the same license.
+## License
+
+Nocturne is released under the [GNU General Public License v3.0](LICENSE). See the license file for the terms governing use, modification, and redistribution.
+
+## Credits
+
+Nocturne is an independent Among Us mod written in C#. The projects below were references for feature ideas and concepts:
+
+- [MalumMenu](https://github.com/scp222thj/MalumMenu)
+- [SickoMenu](https://github.com/g0aty/SickoMenu)
+- [Hydra](https://github.com/MrDiamond64/Hydra)
+- [ElysiumModMenu](https://github.com/Wextikit/ElysiumModMenu)
+
+Libraries and APIs used include:
+
+- [NAudio](https://github.com/naudio/NAudio) for audio playback
+- [Windows Runtime media APIs](https://learn.microsoft.com/en-us/uwp/api/windows.media.control) for supported system media controls
 
 ---
-
-## 🙏 Credits & Acknowledgements
-
-**Nocturne** is an independent, client-side mod menu written from scratch in C#.
-
-The Among Us modding community is a shared space, and the projects below were valuable references for feature ideas and concepts. Much respect to their authors. 🖤
-
-### Inspiration & References
-
-| Project | Use |
-| :-- | :-- |
-| **[MalumMenu](https://github.com/scp222thj/MalumMenu)** | Feature & concept inspiration |
-| **[SickoMenu](https://github.com/g0aty/SickoMenu)** | Feature & concept inspiration (native C++ menu) |
-| **[Hydra](https://github.com/MrDiamond64/Hydra)** | Feature & concept inspiration |
-| **[ElysiumModMenu](https://github.com/Wextikit/ElysiumModMenu)** | Feature & concept inspiration |
-
-### Libraries & APIs Used
-
-| Component | Purpose |
-| :-- | :-- |
-| [**NAudio**](https://github.com/naudio/NAudio) | Audio playback and local music file handling |
-| [**Windows Runtime API**](https://learn.microsoft.com/en-us/uwp/api/windows.media.control) | Accessing and controlling media sessions from other applications |
-
 
 ---
 
 <div align="center">
 
-Made with 🌙 by **Kawasaki**
-
-[**Join the Discord →**](https://discord.gg/cP4MrVUfM7)
+Made by **Kawasaki** 
 
 </div>
