@@ -231,7 +231,6 @@ Libraries and APIs used include:
 
 ---
 
----
 
 <div align="center">
 
