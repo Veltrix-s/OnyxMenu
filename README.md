@@ -36,7 +36,6 @@ Press **`Insert`** to open or close the menu.
 
 ### Lobby & Hosting
 
-- Custom lobby bar with host information, game timer, FPS, and ping
 - Auto-host with player requirements, start delays, and auto-return options
 - Lobby browser with host, code, platform, and lobby age information
 - Start shortcuts and additional host settings
